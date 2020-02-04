@@ -1,0 +1,42 @@
+{
+  "name": "schmansys",
+  "version": "1.0.0",
+  "description": "A school management system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfDotLevi/GSSHwolshe.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "school",
+    "management",
+    "system"
+  ],
+  "author": "Levi, Praise, John, Ashifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selfDotLevi/GSSHwolshe/issues"
+  },
+  "homepage": "https://github.com/selfDotLevi/GSSHwolshe#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
